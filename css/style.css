@@ -1,0 +1,297 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+* {
+  box-sizing: border-box; /* allows us to tell the browser how to measure our elements.  Now the width property includes content, padding, and border, instead of just the content*/
+  font-family: 'Roboto', sans-serif;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+
+body {
+	background: #ffffff;
+	color: #033048;
+
+}
+
+header {
+	background-image: url("../starter_code/images/bg1.jpg"); 
+	background-size: cover;
+	background-position: center center;
+	height: 400px;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+}
+
+div {
+	padding-left: 40px;
+}
+
+.button {
+	border-radius: 5px;
+	font-size: 14px;
+	font-weight: 900;
+	padding: 10px 80px 10px 80px;
+	text-decoration: none;
+	color: white;
+}
+
+#button1 {
+	background: rgb(16,204,114);
+	/* font-size: 14px;
+	font-weight: 900;
+	border-radius: 5px;
+	padding: 10px 80px 10px 80px;
+	text-decoration: none;
+	color: white; */
+}
+
+h1 {
+	color: #fff;
+	font-size: 40px;
+	font-weight: 900;
+	padding-left: 40px;
+}
+
+h2 {
+	font-size: 36px;
+	font-weight: 900;
+}
+
+h3 {
+	font-weight: 700;
+	font-size: 20px;
+}
+
+section {
+	display: flex;
+	justify-content: space-around;
+	padding: 10px;
+	height: 250px;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+
+#box1 , #box2 , #box3 {
+	width: 350px;
+	padding: 10px;
+	text-align: center;
+}
+
+
+#button2 {
+	background: rgb(115,176,248);
+	/* color: white;
+	font-size: 14px;
+	font-weight: 900;
+	border-radius: 5px;
+	padding: 10px 80px 10px 80px;
+	text-decoration: none; */
+
+}
+
+aside {
+	text-align: center;
+	color: rgb(142,149,146);
+	padding: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 800px;
+
+}
+
+blockquote {
+	margin-top: 80px;
+}
+
+blockquote p {
+	font-size: 18px;
+	font-style: italic;
+	font-weight: 300; /* doesnt appear italic */
+	text-align: center;
+	margin: 0;
+	padding: 10px;
+}
+
+cite {
+	font-size: 14px;
+	font-weight: 500;	
+}
+
+
+footer {
+	background: rgb(242,244,246);
+	text-align: center;
+	color: rgb(113,122,128);
+}	
+
+footer p {
+	font-weight: 900;
+	font-size: 40px;
+	padding: 10px;
+	margin: 0;
+}
+
+#copyright {
+	font-weight: 700;
+	font-size: 9px;
+}
+
+
+
+
+
+
+
+
+
+
+/* body {
+	background: #ffffff;
+
+}
+
+header {
+	background-image: url("../images/bg.jpg"); 
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	height: 300px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 900;
+  font-size: 14px;
+}
+
+h1 {
+	font-weight: 900;
+	color: #FFF;
+	padding: 40px;
+}
+
+h2 {
+	color: black;
+	font-size: 36px;
+	font-weight: 900;
+	padding: 40px;
+}
+
+h3 {
+	font-weight: 700;
+	font-size: 20px;
+	text-align: center;
+}
+
+p {
+	font-weight: 300;
+	font-size: 14px;
+	text-align: center;
+}
+
+#button1 {
+	background: rgb(16,204,114);
+	border-radius: 5px;
+	width: 250px;
+	padding: 10px;
+	text-align: center;
+	margin-left: 40px;
+	margin-top: 0px;
+}
+
+#text {
+	display: flex;
+	justify-content: center;
+}
+
+#text-box {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;	
+}
+
+#box1 , #box2 , #box3 {
+	width: 350px;
+	padding: 40px;
+}
+
+#button2 {
+	background: rgb(115,176,248);
+	border-radius: 5px;
+	text-align: center;
+	padding: 10px;
+	width: 250px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+blockquote {
+	font-size: 18px;
+	/* font-weight: 300;  
+	padding: 50px;
+	text-align: center;
+}
+
+#quote {
+	font-size: 18px;
+	font-weight: 300i;
+}
+
+cite {
+	font-size: 14px;
+	font-weight: 500;
+}
+
+footer {
+	background: rgb(242,244,246);
+	color: rgb(113,122,128);
+	padding: 10px;
+	font-weight: 900;
+	font-size: 40px;
+}
+
+
+#copyright , #copyright p{
+	font-weight: 700;
+	font-size: 9px;
+}
+
+#head {
+	display: flex;
+	justify-content: flex-start;
+}
+
+*/
+
+
+
+
+
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
