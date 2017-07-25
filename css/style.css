@@ -63,8 +63,16 @@ a {
 
 }
 
+a:hover {
+	color: green;
+}
+
 nav a {
 	color: white;
+}
+
+aside a:hover {
+	color: black;
 }
 
 nav ul {
