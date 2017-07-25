@@ -1,31 +1,32 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="UTF-8">
-	<title>Blog</title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" media="screen" type="text/css" /> 
-	<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,700,900" rel="stylesheet">
-	<link rel="stylesheet" href="css/styles.css" media="screen" type="text/css" />
-</head>
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="Your description goes here">
+		<title>Blog</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" media="screen" type="text/css" />
+		<!-- external CSS link -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,700,900" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body class="blog">
+	<header class="blog">
+		<div id="logo"> 
+			<h1>Relaxr</h1>
+		</div>
 
-<body>
-	<header>
-	<div id="logo"> 
-		<h1>Relaxr</h1>
-	</div>
-
-	<nav>
-		<ul>
-			<li><a class="nav-li" href="index.html">Home</a></li>
-			<li><a class="nav-li" href="">Services</a></li>
-			<li><a class="nav-li" href="blog.html">Blog</a></li>
-			<li><a class="nav-li" href="">Contact</a></li>
-		</ul>
-	</nav>
+		<nav>
+			<ul>
+				<li><a  href="index.html">Home</a></li>
+				<li><a  href="">Services</a></li>
+				<li><a  href="blog.html">Blog</a></li>
+				<li><a  href="">Contact</a></li>
+			</ul>
+		</nav>
 	</header>
 
-	<aside>
-		<h3>Categories</h3>
+	<aside id="left">
+		<h3 class="blog">Categories</h3>
 		<ul>
 			<li><a class="categories" href="#">Latest</a></li>
 			<li><a class="categories" href="#">Agile</a></li>
@@ -33,7 +34,7 @@
 			<li><a class="categories" href="#">In The News</a></li>
 		</ul>
 
-		<h3>Latest Posts</h3>
+		<h3 class="blog">Latest Posts</h3>
 			<ul>
 				<li><a class="latest" href="#">Grok Workflow</a></li>
 				<li><a class="latest" href="#">Sticky Notes</a></li>
@@ -43,7 +44,7 @@
 			</ul>
 	</aside>
 
-	<article>
+	<article id="center">
 		<h2>SpaceTeam Grok Workflow</h2>
 		<p class="published">Published Dec 17, 2006</p>
 		<p>Mustache 90's swag small batch drinking vinegar, twee taxidermy. You probably haven't heard of them four dollar toast vice twee tumeric selfies lomo pork belly church-key yr small batch fanny pack activated charcoal neutra. Tousled polaroid normcore umami. Asymmetrical kickstarter keffiyeh shabby chic. Flannel gentrify hexagon snackwave. Raw denim tousled ethical meh snackwave trust fund kale chips sustainable organic. Scenester synth irony, hexagon typewriter +1 tumeric heirloom. Hella yuccie hoodie migas. Kogi four dollar toast quinoa echo park, hoodie af slow-carb pinterest tousled hashtag. Austin keffiyeh tilde bespoke gentrify truffaut +1 echo park glossier edison bulb chambray church-key tote bag thundercats. Hashtag slow-carb intelligentsia,</p>
@@ -56,17 +57,15 @@
 		<p>chips chia la croix seitan leggings photo booth pork belly cliche organic knausgaard. Bicycle rights semiotics brooklyn next level, schlitz ugh vape activated charcoal pok pok master cleanse vice tumeric meggings 8-bit. Heirloom copper mug four loko blue bottle, raw denim gastropub cronut.</p>
 	</article>
 
-	<aside id="images">
-		<img src="starter_code/images/app.jpg" alt="app">
-		<img src="starter_code/images/app2.jpg" alt="app2">
+	<aside id="right">
+		<img class="blog" src="starter_code/images/app.jpg" alt="app">
+		<img class="blog" src="starter_code/images/app2.jpg" alt="app2">
 	</aside>
 
-	<footer>
+	<footer class="blog">
 		<p>Relaxr</p>
 		<p id="copyright">Copyright 2017. Relaxr.</p>
 	</footer>
 
 </body>
 </html>
-
-
