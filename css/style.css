@@ -29,7 +29,7 @@ body.blog {
 	display: grid;
 	grid-row-gap: 20px;
 	grid-template-columns: 25% 50% 25%;
-	grid-template-rows: 100px 600px 100px;
+	grid-template-rows: 100px minmax(600px auto) 100px;
 	grid-template-areas: "a a a"
 						 "b c d"
 						 "e e e"
@@ -45,7 +45,7 @@ header {
 	flex-direction: column;
 }
 
-header.blog {
+.blog header {
 	grid-area: a;
 	height: 100%;
 	background-position: top;
@@ -89,7 +89,7 @@ a.categories , a.latest {
 	color: rgb(142,149,146);
 }	
 
-h3.blog {
+.blog h3 {
 	color: black;
 }
 
@@ -160,7 +160,7 @@ article#center {
 	padding: auto;
 }
 
-img.blog {
+.blog img {
 	height: 200px;
 	width: 300px;
 }
@@ -229,7 +229,7 @@ footer {
 	color: rgb(113,122,128);
 }	
 
-footer.blog {
+.blog footer {
 	grid-area: e;
 	margin-top: 10px;
 
